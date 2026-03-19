@@ -1,0 +1,156 @@
+*{
+    margin:0px;
+    padding:0px;
+}
+.container{
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+  padding:15px 30px;
+  background-color:#4CAF50;
+}
+.container h1{
+    color:white;
+    margin:0;
+}
+nav a{
+    color:white;
+    margin:0 15px;
+    text-decoration:none;
+}
+nav input{
+    padding:5px;
+    margin:0 15px;
+}
+nav button{
+    padding:8px 14px;
+    background-color:#0b6e3e;
+    color:white;
+    cursor:pointer;
+    border-radius:7px;
+
+}
+/* ===== FEED SECTION ===== */
+#feed {
+    width: 60%;
+    margin: 30px auto;
+}
+
+/* ===== FEED CENTER ===== */
+#feed {
+    width: 480px;
+    margin: 30px auto;
+}
+
+/* ===== POST CARD ===== */
+.post {
+    background: #ffffff;
+    border-radius: 12px;
+    padding: 15px;
+    margin-bottom: 20px;
+    box-shadow: 0 3px 10px rgba(0,0,0,0.08);
+    background-color:#ccc;
+}
+
+/* ===== HEADER ===== */
+.post-header {
+    display: flex;
+    align-items: center;
+}
+
+.user-avatar {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background: #4CAF50;
+    margin-right: 10px;
+}
+
+.post-author {
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.post-time {
+    font-size: 12px;
+    color: gray;
+}
+
+/* ===== POST CONTENT ===== */
+.post-text {
+    margin: 12px 0;
+    font-size: 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+/* ===== ACTION BAR ===== */
+.post-actions {
+    display: flex;
+    justify-content: space-between;
+    padding: 8px 0;
+    border-top: 1px solid #ddd;
+    border-bottom: 1px solid #ddd;
+}
+
+.post-actions button {
+    background: none;
+    border: none;
+    font-size: 14px;
+    cursor: pointer;
+    padding: 6px 10px;
+    border-radius: 6px;
+}
+
+.post-actions button:hover {
+    background: #f2f2f2;
+}
+
+/* ===== LIKE STYLE ===== */
+.like-btn {
+    color: #e41e3f;
+    font-weight: bold;
+}
+
+/* ===== COMMENTS SECTION ===== */
+.commentSection {
+    margin: 10px;
+    font-size: 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+/* Individual comment */
+.comment {
+    background: #f0f2f5;
+    padding: 8px 12px;
+    border-radius: 15px;
+    margin: 6px 0;
+    font-size: 10px;
+}
+
+/* ===== COMMENT INPUT AREA ===== */
+.comment-box {
+    display: flex;
+    margin-top: 10px;
+}
+
+.commentInput {
+    flex: 1;
+    padding: 8px 12px;
+    border-radius: 20px;
+    border: 1px solid #ccc;
+    outline: none;
+}
+
+.commentBtn {
+    margin-left: 6px;
+    padding: 8px 12px;
+    border: none;
+    background: #0b6e3e;
+    color: white;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.commentBtn:hover {
+    background: #4CAF50;
+}
